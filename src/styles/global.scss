@@ -1,0 +1,24 @@
+
+// 详情list
+.desc-list {
+  padding: 10px 0 0;
+
+  .desc-item {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 23px;
+    color: #606266;
+    padding-bottom: 15px;
+
+    .label {
+      color: #99a9bf;
+      //padding-right: 4px;
+    }
+
+    .content {
+      text-overflow: ellipsis;
+      white-space: normal;
+      word-break: break-all;
+    }
+  }
+}

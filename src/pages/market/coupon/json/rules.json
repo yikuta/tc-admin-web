@@ -1,0 +1,39 @@
+{
+    "couponName": [
+        { "required": true, "message": "请输入优惠券名称", "trigger": "blur" },
+        { "min": 1, "max": 20, "message": "优惠券名称长度最大20字符", "trigger": "blur" }
+    ],
+    "channelType": [
+        { "required": true}
+    ],
+    "businessType": [
+        { "type": "array", "required": true, "message": "至少选择一个业务适用范围", "trigger": "blur" }
+    ],
+    "deductionType": [
+        { "required": true }
+    ],
+    "deductionType_money": [
+        { "required": true, "type": "number", "message": "请输入10000以内的正整数", "trigger": "blur" }
+    ],
+    "availableTimeType": [
+        { "required": true, "message": "请选择可用时间", "trigger": "blur" }
+    ],
+    "depotCodes": [
+        { "required": true, "message": "请选择适用门店", "trigger": "blur" }
+    ],
+    "productCodes": [
+        { "required": true, "message": "请选择适用商品", "trigger": "blur" }
+    ],
+    "launchNum": [
+        { "required": true, "message": "请输入优惠券发放总数", "trigger": "blur" }
+    ],
+    "singleUserLimitNum": [
+        { "required": true, "message": "请输入优惠券单用户可领", "trigger": "blur" }
+    ],
+    "userRangeType": [
+        { "required": true, "message": "请选择可领用户", "trigger": "blur" }
+    ],
+    "time": [
+        { "type": "date", "required": true, "message": "请选择领券时间", "trigger": "change" }
+    ]
+}
